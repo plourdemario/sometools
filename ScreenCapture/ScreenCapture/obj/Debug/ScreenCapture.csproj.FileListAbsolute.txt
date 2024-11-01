@@ -1,0 +1,16 @@
+c:\users\user\documents\visual studio 2015\Projects\ScreenCapture\ScreenCapture\bin\Debug\ScreenCapture.exe.config
+c:\users\user\documents\visual studio 2015\Projects\ScreenCapture\ScreenCapture\bin\Debug\ScreenCapture.exe
+c:\users\user\documents\visual studio 2015\Projects\ScreenCapture\ScreenCapture\bin\Debug\ScreenCapture.pdb
+c:\users\user\documents\visual studio 2015\Projects\ScreenCapture\ScreenCapture\bin\Debug\SharpAvi.dll
+c:\users\user\documents\visual studio 2015\Projects\ScreenCapture\ScreenCapture\bin\Debug\SharpAvi.xml
+c:\users\user\documents\visual studio 2015\Projects\ScreenCapture\ScreenCapture\obj\Debug\ScreenCapture.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2015\Projects\ScreenCapture\ScreenCapture\obj\Debug\ScreenCapture.Form1.resources
+c:\users\user\documents\visual studio 2015\Projects\ScreenCapture\ScreenCapture\obj\Debug\ScreenCapture.Properties.Resources.resources
+c:\users\user\documents\visual studio 2015\Projects\ScreenCapture\ScreenCapture\obj\Debug\ScreenCapture.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2015\Projects\ScreenCapture\ScreenCapture\obj\Debug\ScreenCapture.exe
+c:\users\user\documents\visual studio 2015\Projects\ScreenCapture\ScreenCapture\obj\Debug\ScreenCapture.pdb
+C:\Users\User\documents\visual studio 2015\Projects\ScreenCapture\ScreenCapture\bin\Debug\NAudio.dll
+C:\Users\User\documents\visual studio 2015\Projects\ScreenCapture\ScreenCapture\bin\Debug\NAudio.xml
+C:\projects\ScreenCapture\ScreenCapture\bin\Debug\ScreenCapture.exe.config
+C:\projects\ScreenCapture\ScreenCapture\obj\Debug\ScreenCapture.exe
+C:\projects\ScreenCapture\ScreenCapture\obj\Debug\ScreenCapture.pdb

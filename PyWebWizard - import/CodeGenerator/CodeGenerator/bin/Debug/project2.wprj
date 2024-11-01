@@ -1,0 +1,11 @@
+mainclass=admin,Password1,False,new web site 1,test header,test footer,DBLOGIN,SQLite,C:\projects\PyWebWizard\testdb.db,,,,,,2,0,0,0,0,0,0,0,1,C:\Python27\python.exe;Dataset0=User table,;table1=True,PWAW_USers,True,0,4,;
+Field0=UserID,Text,Username,False,True,False,64,,;
+Field1=Password,Text,Password,False,True,False,64,,;
+Field2=IsAdmin,Checkbox,Admin,False,True,False,0,,;
+Field3=FailedAttempts,Number,Failed Attempts,False,True,False,1,,;
+Dataset1=dataset4,NEW;table1=False,table4,True,0,3,;
+Field0=testtext,Text,test text field,False,True,False,64,,;
+Field1=testnumber,Number,test number field,False,True,False,0,,;
+table2=False,testinternal4,True,0,1,table4_testinternal4_link1;
+Field0=testnumber7,Number,test number 7,False,True,False,0,table4,testinternal4;
+menu0=Main Menu,0;

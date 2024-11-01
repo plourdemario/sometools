@@ -1,0 +1,242 @@
+C:\Users\python\AppData\Local\Temporary Projects\CodeGenerator\bin\Debug\CodeGenerator.exe
+C:\Users\python\AppData\Local\Temporary Projects\CodeGenerator\bin\Debug\CodeGenerator.pdb
+C:\Users\python\AppData\Local\Temporary Projects\CodeGenerator\obj\x86\Debug\CodeGenerator.MainContainer.resources
+C:\Users\python\AppData\Local\Temporary Projects\CodeGenerator\obj\x86\Debug\CodeGenerator.Properties.Resources.resources
+C:\Users\python\AppData\Local\Temporary Projects\CodeGenerator\obj\x86\Debug\CodeGenerator.csproj.GenerateResource.Cache
+C:\Users\python\AppData\Local\Temporary Projects\CodeGenerator\obj\x86\Debug\CodeGenerator.exe
+C:\Users\python\AppData\Local\Temporary Projects\CodeGenerator\obj\x86\Debug\CodeGenerator.pdb
+C:\Users\python\documents\visual studio 2010\Projects\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.exe
+C:\Users\python\documents\visual studio 2010\Projects\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.pdb
+C:\Users\python\documents\visual studio 2010\Projects\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.exe
+C:\Users\python\documents\visual studio 2010\Projects\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.pdb
+C:\Users\python\documents\visual studio 2010\Projects\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.TableEditor.resources
+C:\Users\python\documents\visual studio 2010\Projects\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Creation.resources
+C:\Users\python\documents\visual studio 2010\Projects\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FieldEditor.resources
+C:\Users\python\documents\visual studio 2010\Projects\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.MainContainer.resources
+C:\Users\python\documents\visual studio 2010\Projects\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.NewProject.resources
+C:\Users\python\documents\visual studio 2010\Projects\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Properties.Resources.resources
+C:\Users\python\documents\visual studio 2010\Projects\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csproj.GenerateResource.Cache
+C:\Users\python\documents\visual studio 2010\Projects\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csprojResolveAssemblyReference.cache
+C:\Users\python\documents\visual studio 2010\Projects\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.CommitData.resources
+C:\Users\python\Documents\Visual Studio 2010\Projects\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FormulaWizard.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.exe
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.pdb
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csprojResolveAssemblyReference.cache
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FormulaWizard.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.TableEditor.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Creation.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FieldEditor.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.MainContainer.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.NewProject.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Properties.Resources.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csproj.GenerateResource.Cache
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.exe
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.pdb
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.ExistingData.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FilterSelection.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.PickDatasetType.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FiltersModifier.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.GroupBySelection.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.JoinDatasets.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQL_query.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.AdminPassword.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\functions.py
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.exe
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.pdb
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csprojResolveAssemblyReference.cache
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.AdminPassword.resources
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.ExistingData.resources
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FilterSelection.resources
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FiltersModifier.resources
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FormulaWizard.resources
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.GroupBySelection.resources
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.JoinDatasets.resources
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.PickDatasetType.resources
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQL_query.resources
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.TableEditor.resources
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Creation.resources
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FieldEditor.resources
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.MainContainer.resources
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.NewProject.resources
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Properties.Resources.resources
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csproj.GenerateResource.Cache
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\functions.py
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.exe
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.pdb
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\blank.accdb
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\System.Data.SQLite.dll
+C:\mario\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQLite.resources
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\blank.accdb
+C:\Users\mario\Documents\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQLite.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.exe
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.pdb
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csprojResolveAssemblyReference.cache
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.AdminPassword.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.ExistingData.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FilterSelection.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FiltersModifier.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FormulaWizard.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.GroupBySelection.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.JoinDatasets.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.PickDatasetType.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQL_query.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQLite.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.TableEditor.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Creation.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FieldEditor.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.MainContainer.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.NewProject.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Properties.Resources.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csproj.GenerateResource.Cache
+D:\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\blank.accdb
+D:\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.exe
+D:\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.pdb
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.exe
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.pdb
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\blank.accdb
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.exe
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.pdb
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csprojResolveAssemblyReference.cache
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.AdminPassword.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.ExistingData.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FilterSelection.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FiltersModifier.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FormulaWizard.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.GroupBySelection.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.JoinDatasets.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.PickDatasetType.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQL_query.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQLite.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.TableEditor.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Creation.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FieldEditor.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.MainContainer.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.NewProject.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Properties.Resources.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.exe
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.pdb
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\blank.accdb
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.exe
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.pdb
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.AdminPassword.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.ExistingData.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FilterSelection.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FiltersModifier.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FormulaWizard.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.GroupBySelection.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.JoinDatasets.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.PickDatasetType.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQL_query.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQLite.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.TableEditor.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Creation.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FieldEditor.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.MainContainer.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.NewProject.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Properties.Resources.resources
+C:\Users\Administrator\Desktop\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csproj.GenerateResource.Cache
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.PickPrimaryID.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.dbdataset.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FileList.resources
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.DBPasswordUpdate.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.dbdataset.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.DBPasswordUpdate.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FileList.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.PickPrimaryID.resources
+D:\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\MySql.Data.dll
+D:\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\System.Data.SQLite.dll
+C:\projects\PyWebWizard\CodeGenerator\CodeGenerator\bin\Debug\System.Data.SQLite.dll
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.exe
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.pdb
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\bin\Debug\blank.accdb
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.exe
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.pdb
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\bin\Debug\MySql.Data.dll
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\bin\Debug\System.Data.SQLite.dll
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csprojResolveAssemblyReference.cache
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.AdminPassword.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.dbdataset.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.DBPasswordUpdate.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.ExistingData.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FileList.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FilterSelection.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FiltersModifier.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FormulaWizard.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.GroupBySelection.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.JoinDatasets.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.PickDatasetType.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.PickPrimaryID.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQL_query.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQLite.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.TableEditor.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Creation.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FieldEditor.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.MainContainer.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.NewProject.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Properties.Resources.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csproj.GenerateResource.Cache
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.exe
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.pdb
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csprojResolveAssemblyReference.cache
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.AdminPassword.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.dbdataset.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.DBPasswordUpdate.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.ExistingData.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FileList.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FilterSelection.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FiltersModifier.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FormulaWizard.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.GroupBySelection.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.JoinDatasets.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.PickDatasetType.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.PickPrimaryID.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQL_query.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQLite.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.TableEditor.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Creation.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FieldEditor.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.MainContainer.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.NewProject.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Properties.Resources.resources
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csproj.GenerateResource.Cache
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\bin\Debug\blank.accdb
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.exe
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.pdb
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\bin\Debug\MySql.Data.dll
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\bin\Debug\System.Data.SQLite.dll
+D:\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.DropDownValues.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.DropDownValues.resources
+C:\projects\PyWebWizard - import\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.GetLicenseKey.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.exe
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.pdb
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\bin\Debug\blank.accdb
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.exe
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\bin\Debug\CodeGenerator.pdb
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\bin\Debug\MySql.Data.dll
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\bin\Debug\System.Data.SQLite.dll
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csprojResolveAssemblyReference.cache
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.AdminPassword.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.dbdataset.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.DBPasswordUpdate.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.DropDownValues.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.ExistingData.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FileList.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FilterSelection.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FiltersModifier.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FormulaWizard.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.GetLicenseKey.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.GroupBySelection.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.JoinDatasets.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.PickDatasetType.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.PickPrimaryID.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQL_query.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.SQLite.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.TableEditor.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Creation.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.FieldEditor.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.MainContainer.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.NewProject.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.Properties.Resources.resources
+C:\projects\PyWebWizard - import - fileshare\CodeGenerator\CodeGenerator\obj\x86\Debug\CodeGenerator.csproj.GenerateResource.Cache

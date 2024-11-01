@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+    <Product Id="08D6DFC0-42F7-46D7-AC9C-FBF7E7030C3D" Name="TestProduct" Language="1033" Version="0.0.0.1" Manufacturer="WixEdit" UpgradeCode="A8D9ECB0-1A52-4A7A-85DA-768F186F0C3C">
+        <Package Description="Test file in a Product" Comments="Simple test" InstallerVersion="200" Compressed="yes" />
+        <Media Id="1" Cabinet="simple.cab" EmbedCab="yes" />
+        <Directory Id="TARGETDIR" Name="SourceDir">
+            <Directory Id="ProgramFilesFolder" Name="PFiles" />
+            <Directory Name="test" Id="TEST" />
+        </Directory>
+        <Feature Id="DefaultFeature" Title="Main Feature" Level="1">
+        </Feature>
+        <UI />
+        <UIRef Id="WixUI_Mondo" />
+    </Product>
+</Wix>
+<Property Id="PREVIOUSVERSIONSINSTALLED" Secure="yes" />
+<Upgrade Id="YOUR_GUID">  
+   <UpgradeVersion
+      Minimum="1.0.0.0" Maximum="99.0.0.0"
+      Property="PREVIOUSVERSIONSINSTALLED"
+      IncludeMinimum="yes" IncludeMaximum="no" />
+</Upgrade> 

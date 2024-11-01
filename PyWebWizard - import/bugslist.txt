@@ -1,0 +1,14 @@
+change tab order on field editor
+need to verify that values entered are numbers in size fields
+locked table generating errors.
+
+?add format Text to fieldeditor
+
+
+website
+pymsql
+sqlite
+pymssql
+cryptography
+requests
+
