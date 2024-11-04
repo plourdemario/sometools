@@ -1,15 +1,17 @@
 import os
-import Tkinter as tk
-import tkMessageBox
+import tkinter as tk
+import tkinter.messagebox
 import csv
 import tarfile
 import copy
-import _winreg
-import win32file
-import win32con
-import win32api
+import winreg
+from win32 import win32file
+import win32.lib.win32con as win32con
+#import win32.lib.win32api as win32api
+#import win32api
 import subprocess
-
+import time
+import logging.config
 
 root = tk.Tk()
 path = 'C:\\transferdata'
@@ -33,19 +35,43 @@ class MyDialog(tk.Frame):
         count1 = 1
         count2 = 1
         global folderCheckButton
+        global logger
+        
+        logger = logging.getLogger('filetransfer_application')
+        logger.setLevel(logging.DEBUG)
+        # create file handler which logs even debug messages
+        fh = logging.FileHandler('backup.log')
+        fh.setLevel(logging.DEBUG)
+        logger.addHandler(fh)
 
-        #tkMessageBox.showinfo("file size", str(os.path.getsize("C:\\Users\\maplo\\Downloads\\Git-2.12.0-64-bit.exe")))
+        mainframe = tkinter.Frame(self.top)
+        mainframe.pack(fill=tkinter.BOTH, expand=1)
+        
+        canvas = tkinter.Canvas(mainframe)
+        canvas.pack(side=tkinter.LEFT, fill=tkinter.BOTH, expand=1)
+        
+        scrollbar = tkinter.Scrollbar(mainframe, orient=tkinter.VERTICAL, command=canvas.yview)
+        scrollbar.pack(side=tkinter.RIGHT, fill=tkinter.Y)
 
-        folderCheckButton = [tk.Checkbutton(self.top, text=queue1[0], variable=var1[0], onvalue=1, offvalue=0)]
+        canvas.configure(yscrollcommand=scrollbar.set)
+        canvas.bind('<Configure>', lambda e: canvas.configure(scrollregion=canvas.bbox("all")))
+
+        secondframe = tkinter.Frame(canvas, width = 800, height = 600)
+        #secondframe = tk.Frame(canvas)
+
+        canvas.create_window((0,0), window=secondframe, anchor="nw")
+
+        folderCheckButton = [tk.Checkbutton(secondframe, text=queue1[0], variable=var1[0], onvalue=1, offvalue=0)]
         folderCheckButton[0].pack()
-
+        
+        
         #get all folders in csv to avoid showing to the user
         ifile = open("cdriveavoid.csv", "rt") 
         reader = csv.reader(ifile)
         for row in reader:
             row[0] = row[0].replace('\\\\', '\\')
             row[0] = row[0].lower()        
-            print(row[0])
+            logger.info(row[0])
             rows.append(row[0])
 
         #Check all folders on C: drive and create a button for each that aren't exceptions
@@ -57,18 +83,17 @@ class MyDialog(tk.Frame):
             
             if isdir:
                 try:
-                    #print(rows[count2], abspath)
                     str1 = ''.join(rows[count2])
                 except IndexError:
-                    print('bad row')
+                    logger.info('incorrect file: ' + str1)
                     
                 if abspath.lower() in str1.lower():
                     count2 = count2 + 1
                 else:
                     if abspath.lower() not in rows:
-                        print('paths:'  + abspath.lower())
+                        logger.info('showing path:'  + abspath.lower())
                         var1.append(tk.IntVar())
-                        folderCheckButton.append(tk.Checkbutton(self.top, text=abspath, variable=var1[count1], onvalue=1, offvalue=0))
+                        folderCheckButton.append(tk.Checkbutton(secondframe, text=abspath, variable=var1[count1], onvalue=1, offvalue=0))
                         queue1.append(abspath)
                         folderCheckButton[count1].pack()
                         count1 = count1 + 1
@@ -87,11 +112,8 @@ class ProfilesDialog(tk.Frame):
     def profileslist(self):
         global queue1
         global queue2
-        #global var2
-        #var2 = [tk.IntVar()]
         count1 = 1
-        #path = 'c:\\Users'
-        #folderCheckButton2 = [tk.Checkbutton(self.top, text=queue2[0], variable=var2[0], onvalue=1, offvalue=0)]
+
 
         #Get a list of profiles
         queue2.append(os.environ['USERPROFILE'])
@@ -133,6 +155,7 @@ class ProfilesDialog(tk.Frame):
         for row in reader:
             rows4.append(row)
             count4 = count4 + 1
+        rows4.append(os.environ['USERPROFILE'] + "\\AppData\\Local\\FileTransfer")
         ifile.close()
 
     def Calculate(self):
@@ -140,35 +163,74 @@ class ProfilesDialog(tk.Frame):
         root.wait_window(inputDialog3.top)
 
     def starttransfer(self):
-        from tkFileDialog import asksaveasfilename
+        from tkinter.filedialog import asksaveasfilename
         #create file from save file dialog
         global filename1
         filename = asksaveasfilename(defaultextension=".tar")
         filename1 = filename
-        self.getdata(filename)
+        startbackup1 = startbackup()
+        startbackup1.getdata()
 
     def abortcontinue(self):
         global filename1
-        self.getdata(filename1)
+        #self.getdata(filename1)
         
-    #start data pull and put into a zip file        
-    def getdata(self, filename):
+class datawindow(tk.Frame):
+    def __init__(self, parent):
+        tk.Frame.__init__(self, parent)
+        top = self.top = tk.Toplevel(parent)
+        global sizelabel
+        global pausebutton
+        global thread1
+        sizelabel = tk.Label(top, text='Backing up data please wait...')
+        sizelabel.pack()
+        #pausebutton = tk.Button(top, text='Get file size', command=self.filesizefunc)
+        #pausebutton.pack()
+        time.sleep(2)
+        
+        
+        #thread1 = Thread( target=self.getdata, args=() )
+        #thread1.start()
+        #self.waitthread()
+        #self.getdata()
+
+    def stopthread(self):
+        thread1.join()
+
+    def filesizefunc(self):
+        global filename1
+        global sizelabel
+        zipfilesize1 = os.stat(filename1).st_size
+        if(zipfilesize1 > (1024*1024*1024)):
+            sizelabel.configure(text="Amount of data backed up: " + str(zipfilesize1/1024/1024/1024) + " GB")
+        else:
+            if(zipfilesize1 > (1024*1024)):
+                sizelabel.configure(text="Amount of data backed up: " + str(zipfilesize1/1024/1024) + " MB")
+            else:
+                if(zipfilesize1 > 1024):
+                    sizelabel.configure(text="Amount of data backed up: " + str(zipfilesize1/1024) + " KB")
+                else:
+                    sizelabel.configure(text="Amount of data backed up: " + str(zipfilesize1/1024) + " Bytes")
+
+class startbackup():
+    def getdata(self):
         #get global variables
         global var1
         global queue1
         global queue2
         global count4
         global archivefiles
+        global filename1
         archivefiles = ["init"]
 
-        tarfile1 = tarfile.open(filename, 'w')
-        print("starting transfer...")
+        tarfile1 = tarfile.open(filename1, 'w')
 
         #get list of registry keys to register
         global count5
         dataget1 = datagetclass()
         count5 = 0
         global rows5
+        global logger
         rows5 = ["empty"]
         ifile = open("registry2.csv", "rt") 
         reader = csv.reader(ifile)
@@ -185,16 +247,15 @@ class ProfilesDialog(tk.Frame):
         newpath = os.environ["USERPROFILE"] + "\\AppData\\Local\\FileTransfer" 
         if not os.path.exists(newpath):
             os.makedirs(newpath)
-
-
+            
         for row in rows5:
             try:
-                subprostring1 = "reg export \"" + row[1] + "\" C:\\Temp\\Regexport\\regfile" + str(count3) + ".reg /y"
+                subprostring1 = "reg export \"" + row[1] + "\"" + os.environ["USERPROFILE"] + "\\AppData\\Local\\FileTransfer" + str(count3) + ".reg /y"
                 #print(subprostring1)
                 ch=subprocess.Popen(subprostring1)
                 count3 = count3 + 1
             except Exception as e:
-                print(e)
+                logger.error(e)
 
         
         
@@ -208,30 +269,29 @@ class ProfilesDialog(tk.Frame):
                 if var1[count1].get() == 1:
                     dataget1.addfilestozip(tarfile1,''.join(queue1[count1]) , 0, 0)
             except IndexError:
-                print('bad row4')
+                logger.error('problem getting file' + row)
                         
             count1 = count1 + 1
-
-
+        
         #add profile folders drive data 
         count1 = 1
         for row in queue2:
             try:
                 str1 = ''.join(queue2[count1])
                 dataget1.addfilestozip(tarfile1, str1, 1, 0)
-                print(str1)
+                logger.info('transfering folder' + str1)
                 #appdata folders
                 count2 = 1
                 while count2 < count4:
                     newstr = str1 + ''.join(rows4[count2])
-                    print(newstr)
+                    logger.info(newstr)
                     try:
                         dataget1.addfilestozip(tarfile1, newstr, 0, 0)
                     except WindowsError:
-                        print('Specified folder not found in this profile')
+                        logger.info('Specified folder not found in this profile: ' + row)
                     count2 = count2 + 1 
             except IndexError:
-                print('bad row5')
+                logger.error('error with:' + row)
                         
             count1 = count1 + 1
 
@@ -239,7 +299,7 @@ class ProfilesDialog(tk.Frame):
             dataget1.addfilestozip(tarfile1, newpath, 0, 0)
         except Exception as e:
             tkMessageBox.showinfo(e)
-            
+
         tarfile1.close()
         tkMessageBox.showinfo("Data backup", "Backup completed!")
 
@@ -250,13 +310,15 @@ class datagetclass:
         global filesize
         global filecount
         global archivefiles
+        global filename1
+        global sizelabel
+        global logger
         rows3 = ["none"]
         if avoidappdata == 1:
             for row in rows2:
                 str1 = path + '\\' + ''.join(row)
                 str1 = str1.lower()
                 rows3.append(str1)
-                #print(rows3[count1])
                 count1 = count1 + 1        
             
         for p in os.listdir(path):            
@@ -270,18 +332,18 @@ class datagetclass:
                     fattrs = win32file.GetFileAttributes(str1)
                     #self.addfilestozip(zipfile1, abspath, avoidappdata)
                     if fattrs & win32con.FILE_ATTRIBUTE_SYSTEM :
-                        print("Skipped system folder")
+                        logger.info("Skipped system folder")
                     else:
                         self.addfilestozip(zipfile1, abspath, avoidappdata, getsize)
                 else:
-                    print("skipped folder" + abspath.lower())
+                    logger.info("skipped folder" + abspath.lower())
             else:             
                 #print(str1)
                 try:
                     fattrs = win32file.GetFileAttributes(str1)
                     #zipfile1.add(str1)
                     if fattrs & win32con.FILE_ATTRIBUTE_SYSTEM or ((".ost" in str1 or ".old" in str1) and "Local\\Microsoft\\Outlook" in str1) or "OneDrive" in str1:
-                        print("Skipped file:" + str1)
+                        logger.info("Skipped file:" + str1)
                     else:
                         if(getsize == 0):
                             if str1 not in archivefiles:
@@ -292,10 +354,19 @@ class datagetclass:
                             filesize +=  os.path.getsize(str1)
                             #os.stat(str1).st_size
                 except IOError:
-                    print("Access denied trying to zip file2")
+                    logger.error("Access denied trying to zip file2")
                 except WindowsError:
-                    print("Error accessing file:" + str1)
-
+                    logger.error("Error accessing file:" + str1)
+        try:
+            if(getsize == 0):
+                zipfile1.add(os.environ['USERPROFILE'] + "\\AppData\\Local\\Google\\Chrome\\User Data\\Default\\Bookmarks")
+            else:
+                filecount = filecount + 1
+                filesize +=  os.path.getsize(str1)
+        except IOError:
+            logger.error("Access denied trying to zip file2")
+        except WindowsError:
+            logger.error("Error accessing file:" + str1)
 class CalculateSize(tk.Frame):
     def __init__(self, parent):
         tk.Frame.__init__(self, parent)
@@ -331,7 +402,7 @@ class CalculateSize(tk.Frame):
                     #self.addfiles(''.join(queue1[count1]), 0)
                     dataget1.addfilestozip("", ''.join(queue1[count1]), 0, 1)
             except IndexError:
-                print('bad row1')    
+                logger.error('bad row:' + row)    
             count1 = count1 + 1
 
         #add profile folders drive data 
@@ -351,7 +422,7 @@ class CalculateSize(tk.Frame):
                         print('Specified folder not found in this profile')
                     count2 = count2 + 1 
             except IndexError:
-                print('bad row2')
+                logger.error('bad folder' + row)
             count1 = count1 + 1
 
         filesize = filesize / 1024 / 1024
@@ -366,7 +437,8 @@ class CalculateSize(tk.Frame):
                   
 class ApplyTarDialog(tk.Frame):
     def __init__(self, parent):
-        from tkFileDialog import askopenfilename
+        from tkinter.filedialog import askopenfilename
+        global logger
         filename = askopenfilename(defaultextension=".tar")
         tk.Frame.__init__(self, parent)
         top = self.top = tk.Toplevel(parent)
@@ -374,14 +446,26 @@ class ApplyTarDialog(tk.Frame):
         self.myLabel.pack()
         
         tar = tarfile.open(filename)
-        for member in tar.getmembers():
-            #print "Extracting %s" % member.name
+        try:
+            tar.extractall()
+        except:
+            tkMessageBox.showinfo("Tar file", "Problem opening Tar file")
+        for p in os.listdir(os.environ['USERPROFILE'] + "\\AppData\\Local\\FileTransfer"):            
+            abspath = os.path.join(path, p)
+            isdir = os.path.isdir(abspath)
+            str1 = ''.join(abspath)
             try:
-                tar.extract(member, path='c:\\')
+                fattrs = win32file.GetFileAttributes(str1)
+                #zipfile1.add(str1)
+                if not fattrs & win32con.FILE_ATTRIBUTE_SYSTEM or (".reg" not in str1):
+                    logger.info("Skipped file:" + str1)
+                else:
+                    ch=subprocess.Popen("reg import " + str1)
             except IOError:
-                self.TextBox = tk.Entry(top, width=100)
-                self.TextBox.insert(10, "Skipped file: " + member.name + "\n")
-                self.TextBox.pack()
+                logger.error("Access denied trying to reg file")
+            except WindowsError:
+                logger.error("Error accessing file:" + str1)
+        tkMessageBox.showinfo("Data restore", "Data restored!")
             
 #Open window to start getting data
 def onClick():

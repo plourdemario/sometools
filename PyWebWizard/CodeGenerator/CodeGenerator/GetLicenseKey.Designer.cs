@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GetLicenseKey));
+            //System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GetLicenseKey));
             this.label1 = new System.Windows.Forms.Label();
             this.LicenseText = new System.Windows.Forms.TextBox();
             this.OKButton = new System.Windows.Forms.Button();
@@ -80,7 +80,7 @@
             this.Controls.Add(this.CancelButton);
             this.Controls.Add(this.LicenseText);
             this.Controls.Add(this.label1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            //this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "GetLicenseKey";
             this.Text = "GetLicenseKey";
             this.ResumeLayout(false);

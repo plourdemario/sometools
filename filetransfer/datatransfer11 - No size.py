@@ -1,13 +1,14 @@
 import os
-import Tkinter as tk
-import tkMessageBox
+import tkinter as tk
+import tkinter.messagebox
 import csv
 import tarfile
 import copy
-import _winreg
-import win32file
-import win32con
-import win32api
+import winreg
+from win32 import win32file
+import win32.lib.win32con as win32con
+#import win32.lib.win32api as win32api
+#import win32api
 import subprocess
 import time
 import logging.config
@@ -41,7 +42,6 @@ class MyDialog(tk.Frame):
         fh = logging.FileHandler('backup.log')
         fh.setLevel(logging.DEBUG)
         logger.addHandler(fh)
-
 
         folderCheckButton = [tk.Checkbutton(self.top, text=queue1[0], variable=var1[0], onvalue=1, offvalue=0)]
         folderCheckButton[0].pack()
@@ -144,7 +144,7 @@ class ProfilesDialog(tk.Frame):
         root.wait_window(inputDialog3.top)
 
     def starttransfer(self):
-        from tkFileDialog import asksaveasfilename
+        from tkinter.filedialog import asksaveasfilename
         #create file from save file dialog
         global filename1
         filename = asksaveasfilename(defaultextension=".tar")
@@ -418,7 +418,7 @@ class CalculateSize(tk.Frame):
                   
 class ApplyTarDialog(tk.Frame):
     def __init__(self, parent):
-        from tkFileDialog import askopenfilename
+        from tkinter.filedialog import askopenfilename
         global logger
         filename = askopenfilename(defaultextension=".tar")
         tk.Frame.__init__(self, parent)

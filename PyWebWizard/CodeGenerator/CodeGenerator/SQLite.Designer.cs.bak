@@ -231,7 +231,7 @@
             this.Controls.Add(this.TestButton);
             this.Controls.Add(this.OKButton);
             this.Controls.Add(this.CancelButton);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            //this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SQLite";
             this.Text = "SQLite/Admin Account Configuration";
             this.DBOptions.ResumeLayout(false);
