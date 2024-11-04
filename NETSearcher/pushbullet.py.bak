@@ -1,7 +1,7 @@
 import requests
 import json
 
-apilToken = "enterhere"
+apilToken = "o.QhbicYH3lrxH4OUE4hogFWZlPOoRjx7U"
 headers1 = {"Accept": "application/json", 
 					"Content-Type": "application/json",
 					"User-Agent": "pyPushBullet",

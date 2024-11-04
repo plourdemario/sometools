@@ -1,6 +1,6 @@
 import requests;
 
-apilToken = "enterhere"
+apilToken = "6054516818:AAEStB_Bewkc31HfgS0ZQpebSvWqx4dxXqI"
 url1 = "https://api.telegram.org/bot" + apilToken + "/getUpdates"
 response1  = requests.get(url1)
 
